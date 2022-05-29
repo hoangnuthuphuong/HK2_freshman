@@ -5,7 +5,8 @@ ucln<-function(a,b){
     return(b)}
   ucln(b,a%%b)
 }
-
-a<-17
-b<-90
+a<-readline("Nhap a:")
+a<-as.integer(a)
+b<-readline("Nhap b:")
+b<-as.integer(b)
 cat('Uoc chung lon nhat cua',a,'va',b,'la:',ucln(a,b))
