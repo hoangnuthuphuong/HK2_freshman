@@ -20,14 +20,12 @@ sum(BirdFlu[,"cases2005"])
 # Quốc gia có nhiều trường hợp mắc bệnh nhất
 # Tạo cột Totalcases để tính tổng số ca mắc bệnh của từng quốc gia 
 BirdFlu$TotalCases <- BirdFlu$cases2003 + BirdFlu$cases2004 + BirdFlu$cases2005 + BirdFlu$cases2006 + BirdFlu$cases2007 + BirdFlu$cases2008
-BirdFlu
-BirdFlu$TotalCases
-# => Indonesia là quốc gia có nhiều ca bệnh nhất = 135
+BirdFlu$TotalCases   # => Indonesia là quốc gia có nhiều ca bệnh nhất = 135
 
 # Quốc gia có nhiều trường hợp tử vong nhất
 # Tạo cột TotalDeaths để tính tổng số ca tử vong của từng quốc gia
 BirdFlu$TotalDeaths <- BirdFlu$deaths2003 + BirdFlu$deaths2004 + BirdFlu$deaths2005 + BirdFlu$deaths2006 + BirdFlu$deaths2007 + BirdFlu$deaths2008
-BirdFlu
-BirdFlu$TotalDeaths
-# => Indonesia là quốc gia có nhiều ca tử vong nhất = 110
+BirdFlu$TotalDeaths  # => Indonesia là quốc gia có nhiều ca tử vong nhất = 110
+
+
 
