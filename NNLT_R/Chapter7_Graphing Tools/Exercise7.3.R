@@ -1,0 +1,3 @@
+boxplot(Veg$R)
+
+
